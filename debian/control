@@ -1,0 +1,59 @@
+Source: musikcube
+Priority: optional
+Section: sound
+Maintainer: Kazuto Kirito <kasuna784@gmail.com>
+Vcs-Git: git://github.com/clangen/musikcube
+Homepage: https://musikcube.com
+Build-depends:  debhelper (>= 9),
+                g++ (>= 6.3.0),
+                cmake (>= 3.0),
+                libboost-dev,
+                libboost-filesystem-dev,
+                libboost-thread-dev,
+                libboost-system-dev,
+                libboost-chrono-dev,
+                libboost-date-time-dev,
+                libncursesw5-dev,
+                zlib1g-dev,
+                libvorbis-dev,
+                libasound2-dev,
+                libpulse-dev,
+                libssl-dev,
+                libogg-dev,
+                libmp3lame-dev,
+                libev-dev,
+                libcurl4,
+                libmicrohttpd-dev,
+                libsystemd-dev,
+                libopenmpt-dev,
+                libresample-dev,
+                ffmpeg,
+                pulseaudio
+
+Package: musikcube
+Version: 0.97.1
+Architecture: amd64
+Depends:  libboost-filesystem1.74.0,
+          libboost-thread1.74.0,
+          libboost-system1.74.0,
+          libboost-chrono1.74.0,
+          libboost-date-time1.74.0,
+          libmicrohttpd12,
+          libncursesw5,
+          libavutil56,
+          libavcodec-extra,
+          libavformat58,
+          libswresample3,
+          libcurl4,
+          libogg0,
+          libvorbis0a,
+          libvorbisfile3,
+          libasound2 ,
+          libpulse0,
+          pulseaudio,
+          libmp3lame0,
+          libev4,
+          libopenmpt0,
+          libssl1.1
+Description: A cross-platform, terminal-based audio engine,
+ library, player and server written in C++

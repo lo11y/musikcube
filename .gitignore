@@ -18,6 +18,7 @@
 .vscode
 dist
 bin
+deb
 bin32
 bin64
 ipch
